@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: "java-app-service"
+spec:
+  selector:
+    app: "java-app"
+  ports:
+    - protocol: "TCP"
+      port: 33333
+      targetPort: 33333
+  type: LoadBalancer

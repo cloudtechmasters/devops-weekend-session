@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: 462483370869.dkr.ecr.us-east-1.amazonaws.com/devops-weekend-session:3
+        image: devopsweekendsessionmay08.azurecr.io/devops-weekend-session:3
         ports:
         - containerPort: 33333
